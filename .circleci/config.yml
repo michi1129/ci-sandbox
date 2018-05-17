@@ -7,7 +7,7 @@ jobs:
   build:
     branches:
       only:
-        - master
+        - dev-circle-ci
 
     docker:
       # specify the version you desire here
