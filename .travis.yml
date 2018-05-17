@@ -3,4 +3,4 @@ python:
   - 3.6
 script:
   - cd src
-  - python -m unittest tests/test_bankaccount.py
+  - python -m unittest discover -s tests
