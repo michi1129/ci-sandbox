@@ -7,7 +7,7 @@ jobs:
   build:
     branches:
       only:
-        - ci-test
+        - master
 
     docker:
       # specify the version you desire here
